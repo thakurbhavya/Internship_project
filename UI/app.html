@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image to String Converter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #f0f0f0, #dcdcdc);
+    }
+    #container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #000000;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+      margin-bottom: 20px;
+      color: #3498db;
+    }
+    #imageInput {
+      display: none;
+    }
+    label {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    #imageDisplay {
+      margin-top: 20px;
+      max-width: 300px;
+    }
+    #outputText {
+      margin-top: 20px;
+      white-space: pre-wrap;
+      background-color: #FF0000;
+      padding: 10px;
+      border-radius: 7px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <!-- Change the h1 tag content to display the greeting -->
+    <h1>Hello, World!</h1>
+  <div id="container">
+    <h1>Image to String Converter</h1>
+    <input type="file" id="imageInput" accept="image/*">
+    <label for="imageInput">Select an Image</label>
+    <div id="imageDisplay"></div>
+    <div id="outputText"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
 
